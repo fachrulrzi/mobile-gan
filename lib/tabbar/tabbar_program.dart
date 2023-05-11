@@ -135,7 +135,10 @@ class PembelianTabbar extends StatelessWidget {
                             fontSize: 16.sp),
                       ),
                       DigitalClock(
-                        hourMinuteDigitDecoration: BoxDecoration(
+                        hourDigitDecoration: BoxDecoration(
+                            color: Colors.white.withOpacity(0.3),
+                            borderRadius: BorderRadius.circular(2)),
+                        minuteDigitDecoration: BoxDecoration(
                             color: Colors.white.withOpacity(0.3),
                             borderRadius: BorderRadius.circular(2)),
                         secondDigitDecoration: BoxDecoration(

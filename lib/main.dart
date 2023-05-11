@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:gan/Artikel.dart';
 
 import 'package:gan/profile/Pretest.dart';
 import 'package:gan/event%20artikel/artikelevent.dart';

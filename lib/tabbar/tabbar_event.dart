@@ -16,7 +16,7 @@ class EventTabbar extends StatelessWidget {
         appBar: AppBar(
             automaticallyImplyLeading: false,
             backgroundColor: Color(0xff8D191C),
-            title: Text('Dashboard Live Class'),
+            title: Text('Dashboard Event'),
             centerTitle: true,
             bottom: PreferredSize(
                 child: Card(

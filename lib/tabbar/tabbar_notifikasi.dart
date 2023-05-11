@@ -13,6 +13,7 @@ class _TabbarBodyState extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          automaticallyImplyLeading: false,
           title: Center(child: Text("Notification")),
           backgroundColor: Color(0xff8D191C)),
       body: DefaultTabController(

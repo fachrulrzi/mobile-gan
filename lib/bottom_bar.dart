@@ -20,17 +20,17 @@ class _BottomBarState extends State<BottomBar> {
   @override
   Widget build(BuildContext context) {
     final _kTabPages = <Widget>[
-      TabbarBody(),
       PembelianTabbar(),
+      TabbarBody(),
       EventTabbar(),
       LiveClass(),
       ProfilTabbar()
     ];
     final _kBottmonNavBarItems = <BottomNavigationBarItem>[
       const BottomNavigationBarItem(
-          icon: Icon(Icons.dashboard), label: 'Beranda'),
-      const BottomNavigationBarItem(
           icon: Icon(Icons.pie_chart), label: 'Program'),
+      const BottomNavigationBarItem(
+          icon: Icon(Icons.notifications), label: 'Notifikasi'),
       const BottomNavigationBarItem(
           icon: Icon(Icons.calendar_today), label: 'Event'),
       const BottomNavigationBarItem(

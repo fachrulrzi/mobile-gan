@@ -17,7 +17,7 @@ class Splash extends StatelessWidget {
         duration: 2000,
         nextScreen: BottomBar(),
         splashTransition: SplashTransition.fadeTransition,
-        splashIconSize: 40.w,
+        splashIconSize: 35.w,
       );
     });
   }

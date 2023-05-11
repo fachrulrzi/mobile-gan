@@ -7,6 +7,7 @@ class Midtrans extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xfffF9F9F9),
       body: SafeArea(
         child: Center(
           child: Column(
